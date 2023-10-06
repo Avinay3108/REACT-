@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 import About from './About';
 import Blogs from './Blogs';
 import Services from './Services';
-import Commerce from './Commerce'; 
-import Shopify from './Shopify'; 
+import Commerce from './Commerce';
+import Shopify from './Shopify';
 import Navbar from './Navbar';
 import Culture from './Culture';
 import Portfolio from './Portfolio';
@@ -34,10 +34,10 @@ function App() {
         <Route path="/wordpress" element={<Wordpress />} />
         <Route path="/learndash" element={<Learndash />} />
         <Route path="/speed" element={<Speed />} />
-        <Route path="/Frontend" element={<FrontEndDevelopment  />} />
-        <Route path="/Markting" element={<Markting/>} />
-        <Route path="/Ui" element={<Ui  />} />
-        <Route path="/Managed" element={<Managed  />} />
+        <Route path="/Frontend" element={<FrontEndDevelopment />} />
+        <Route path="/Markting" element={<Markting />} />
+        <Route path="/Ui" element={<Ui />} />
+        <Route path="/Managed" element={<Managed />} />
         <Route path="/culture" element={<Culture />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/solutions" element={<Solutions />} />
